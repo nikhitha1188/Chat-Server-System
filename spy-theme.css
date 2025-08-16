@@ -1,0 +1,66 @@
+/* spy-theme.css */
+
+.root {
+    -fx-font-family: "Consolas", monospace;
+    -fx-background-color: #000000;
+}
+
+/* Title Label */
+#titleLabel {
+    -fx-font-size: 28px;
+    -fx-text-fill: #00ffcc;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, #00ffcc, 5, 0.5, 0, 0);
+    -fx-alignment: center;
+}
+
+/* General Label Styling */
+.label {
+    -fx-text-fill: #00ffcc;
+    -fx-font-size: 14px;
+}
+
+/* Text Fields */
+.text-field, TextField {
+    -fx-background-color: #111;
+    -fx-text-fill: #00ffcc;
+    -fx-border-color: #00ffcc;
+    -fx-border-width: 1px;
+    -fx-prompt-text-fill: #555;
+    -fx-font-size: 13px;
+}
+
+/* Password Fields */
+.password-field, PasswordField {
+    -fx-background-color: #111;
+    -fx-text-fill: #00ffcc;
+    -fx-border-color: #00ffcc;
+    -fx-border-width: 1px;
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: #555;
+}
+
+/* Buttons */
+.button, Button {
+    -fx-background-color: linear-gradient(#00ffcc, #005f5f);
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, #00ffcc, 5, 0.5, 0, 0);
+    -fx-background-radius: 8;
+    -fx-font-size: 14px;
+    -fx-padding: 6 14 6 14;
+}
+
+/* Chat Messages */
+.chat-message {
+    -fx-background-color: rgba(0, 255, 204, 0.1);
+    -fx-text-fill: #00ffcc;
+    -fx-padding: 6;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-font-size: 13px;
+    -fx-border-color: #00ffcc;
+    -fx-border-width: 1px;
+    -fx-max-width: 600px;
+}
